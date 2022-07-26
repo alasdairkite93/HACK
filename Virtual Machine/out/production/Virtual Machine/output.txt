@@ -1,0 +1,29 @@
+push 1
+pop 1
+push 0
+pop 0
+push 1
+pop 1
+push 0
+push 2
+sub
+pop 0
+label MAIN_LOOP_START
+push 0
+if-goto COMPUTE_ELEMENT
+goto END_PROGRAM
+label COMPUTE_ELEMENT
+push 0
+push 1
+add
+pop 2
+push 1
+push 1
+add
+pop 1
+push 0
+push 1
+sub
+pop 0
+goto MAIN_LOOP_START
+label END_PROGRAM

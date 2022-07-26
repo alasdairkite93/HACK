@@ -1,0 +1,13 @@
+function 0
+push 6
+push 8
+call 2
+pop 0
+push 23
+push 15
+call 2
+pop 0
+call 0
+call 0
+label WHILE
+goto WHILE
