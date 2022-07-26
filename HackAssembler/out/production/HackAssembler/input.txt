@@ -1,0 +1,11 @@
+@i
+M=1
+@sum
+@SCREEN
+M=0
+@i
+D=M
+@R0
+D=D-M
+@STOP
+D
